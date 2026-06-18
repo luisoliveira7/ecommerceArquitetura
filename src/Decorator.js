@@ -27,6 +27,7 @@ class LogDecorator extends PagamentoDecorator {
 class DescontoDecorator extends PagamentoDecorator {
   constructor(pagamento, percentual) {
     super(pagamento)
+    
     // Percentual de desconto a ser aplicado
     this.percentual = percentual
   }
